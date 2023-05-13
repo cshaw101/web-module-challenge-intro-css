@@ -9,11 +9,8 @@
 }
 
 
-
-/* TO DO: fix font and make it roboto mono, fix header and footer tiles, make sure everything is spaced out evenly, check to make sure all of the readme is completed
-
 * {
-    border: 1px solid black;
+    font-family: Roboto Mono;
 }
 /* header and navbar */
 
@@ -26,27 +23,37 @@
 .link {
     display: inline-block;
     margin: 0 100px;
-   
+   position: relative;
     
 
 }
 .visit {
     background-color: #FF764E;
-  padding: 15px 15px 15px 15px;
+  padding: 1.5rem;
   border-radius: 10px;
+  position: relative;
+  color: white;
 }
 
 .learn {
 background-color:#5ED3EB ;
-padding: 15px 15px 15px 15px;
+padding: 1.5rem;
 border-radius: 10px;
+position: relative;
+color: white;
 }
 
 
 .involved {
    background-color: #FFCD69; 
-   padding: 15px 15px 15px 15px;
+   padding: 1.5rem;
    border-radius: 10px;
+   color: white;
+}
+section .top-text {
+    margin-bottom: 3.125em; 
+    font-size: 1.25rem; 
+    padding-left: 0.3125rem;
 }
 
 /* first section */
@@ -57,54 +64,55 @@ border-radius: 10px;
 }
  
 .first-image {
-    height: 250px;
+    height: 17rem;
     border-radius: 50%;
-    margin: 80px 0 10px 125px;
+    margin: 5rem 0 1rem 8rem;
     float: left;
     
 }
 
 .top {
     text-align: center;
-    margin: 50px 130px 0 0;
+    margin: 5rem 10rem 0 0;
 }
 
 /*font*/
 h1 {
     font-family: Chelsea Market;
-    font-size: 60px;;
+    font-size: 3.125rem;
 }
 
- p{
-    font-family: Roboto Mono;
-}
+ a {
+    text-decoration: none;
+ }
 
 
 /*brown background text section*/
 
 section .body-text {
     text-align: center;
-    
-    background-color: #DDB9A3;
+     background-color: #DDB9A3;
     color: white;
-    padding: 25px 25px 25px 25px;
-   margin: 0px 70px 0 70px;
+    padding: 1.5625rem;
+   margin: 0 5rem;
+   font-size: 1.1rem;
     
 }
 
 /*fire picture section*/
 .mid-page {
 text-align: center;
+margin-bottom: 3.125rem;
 
 }
 
 .fire {
     display: block;
     margin: 0 auto;
-    height: 150px;
+    height: 9.375rem;
 }
 .fire-text {
-    padding: 5px;
+    padding: 0.3125rem;
     margin:0;
 }
 
@@ -118,5 +126,9 @@ footer {
 footer img {
     height: 200px;
     width: 100%;
+    margin-bottom:3.125rem;
 }
 
+footer .link{
+    margin-bottom: 15px;
+}

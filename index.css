@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family: Chelsea Market;
+    src: url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+}
+@font-face {
+    font-family: Roboto Mono;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+}
+
+
+
+/* TO DO: fix font and make it roboto mono, fix header and footer tiles, make sure everything is spaced out evenly, check to make sure all of the readme is completed
+
+* {
+    border: 1px solid black;
+}
+/* header and navbar */
+
+.container {
+    text-align: center;
+    padding: 20px;
+   
+}
+
+.link {
+    display: inline-block;
+    margin: 0 100px;
+   
+    
+
+}
+.visit {
+    background-color: #FF764E;
+  padding: 15px 15px 15px 15px;
+  border-radius: 10px;
+}
+
+.learn {
+background-color:#5ED3EB ;
+padding: 15px 15px 15px 15px;
+border-radius: 10px;
+}
+
+
+.involved {
+   background-color: #FFCD69; 
+   padding: 15px 15px 15px 15px;
+   border-radius: 10px;
+}
+
+/* first section */
+
+.park-guide {
+    overflow: hidden;
+    
+}
+ 
+.first-image {
+    height: 250px;
+    border-radius: 50%;
+    margin: 80px 0 10px 125px;
+    float: left;
+    
+}
+
+.top {
+    text-align: center;
+    margin: 50px 130px 0 0;
+}
+
+/*font*/
+h1 {
+    font-family: Chelsea Market;
+    font-size: 60px;;
+}
+
+ p{
+    font-family: Roboto Mono;
+}
+
+
+/*brown background text section*/
+
+section .body-text {
+    text-align: center;
+    
+    background-color: #DDB9A3;
+    color: white;
+    padding: 25px 25px 25px 25px;
+   margin: 0px 70px 0 70px;
+    
+}
+
+/*fire picture section*/
+.mid-page {
+text-align: center;
+
+}
+
+.fire {
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+}
+.fire-text {
+    padding: 5px;
+    margin:0;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #F9E7DC;
+}
+
+footer img {
+    height: 200px;
+    width: 100%;
+}
+
